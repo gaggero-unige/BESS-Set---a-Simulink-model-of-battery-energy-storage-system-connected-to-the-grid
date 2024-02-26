@@ -1,0 +1,11 @@
+Simulink model of a Battery Energy Storage System connected to the grid.
+The inverter control allows to set the reference active and reactive powers from the respective block.
+
+FILES
+Battery_model.slx --> Simulink Model
+Parameters.m --> matlab file to run for initializing the parameters of the model
+extractfeatures.m --> matlab script to run for extracting the measures in a .csv file
+
+If you use this model for scientific purposes, please cite in your paper:
+- Giovanni Battista Gaggero, Alessandro Armellin, Giulio Ferro, Michela Robba, Paola Girdinio and Mario Marchese (2024). A Dataset for Cybersecurity Monitoring in a Battery Energy Storage System
+- Gaggero, G. B., Caviglia, R., Armellin, A., Rossi, M., Girdinio, P., & Marchese, M. (2022). Detecting cyberattacks on electrical storage systems through neural network based anomaly detection algorithm. Sensors, 22(10), 3933.
